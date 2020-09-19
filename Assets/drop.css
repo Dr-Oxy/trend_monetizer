@@ -72,3 +72,48 @@ body {
 .log-text {
   margin-left: 10px;
 }
+
+/* drop box 2 styling */
+
+.drop-box-2 {
+  margin: 20px;
+  min-height: 200px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.grp-socials {
+  display: flex;
+  justify-content: space-between;
+}
+.ic-name {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.text-class {
+  font-size: 14px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.space {
+  margin-bottom: 10px;
+}
+.d-btn {
+  font-size: 8px;
+  border: none;
+  background-color: pink;
+  color: red;
+  border-radius: 10px;
+  padding: 2px 15px;
+}
