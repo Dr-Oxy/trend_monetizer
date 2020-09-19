@@ -1,0 +1,170 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255) !important;
+  font-family: poppins, helvetica, sans-serif;
+}
+
+.m-top,
+.m-bottom {
+  border: 1px rgb(223, 223, 223) solid;
+  border-radius: 10px;
+}
+
+.icon-arrow a > i {
+  color: black;
+  font-size: 32px;
+}
+
+.m-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.m-top-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-class {
+  border-radius: 20px !important;
+  border: none;
+  padding: 5px 25px !important;
+  font-size: 12px !important;
+}
+
+.top-btn-1 {
+  background-color: pink !important;
+  color: red !important;
+}
+
+.top-btn-2 {
+  color: gray;
+}
+
+.article {
+  min-height: 7.9em;
+  width: 200px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  border: 1px rgb(170, 170, 170) solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 764px) {
+  .m-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .m-top-right {
+    order: 1;
+  }
+  .m-top-left {
+    order: 2;
+    margin-top: 10px;
+  }
+}
+
+/* main bottom styling */
+.post-btn {
+  background-color: rgb(226, 226, 226) !important;
+  color: black;
+  padding: 5px 15px !important;
+  font-size: 14px !important;
+  border: none;
+}
+
+.round-image {
+  height: 20px;
+  width: 20px;
+  background-color: #cecece;
+  border-radius: 50%;
+}
+
+.square-image {
+  height: 4.12em;
+  width: 100px;
+  background-color: rgb(158, 158, 158);
+}
+
+.text-style-3 {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.red-circle {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgb(255, 92, 92);
+}
+
+/* aside styling */
+.text-style {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.text-style-2 {
+  font-size: 12px;
+  color: rgb(172, 170, 170);
+}
+.aside-top button {
+  flex: 1;
+  padding: 0.5em 0;
+  border: none;
+}
+
+.aside-top button:first-child {
+  background-color: #ff2a3e;
+}
+
+.aside-top button:last-child {
+  background-color: #fde1de;
+}
+
+div.badge {
+  background-color: #ffa31e;
+  padding: 10px;
+  font-size: 10px;
+}
+.aside-mid {
+  min-height: 280px;
+  background-color: rgba(29, 29, 29, 0.376);
+  border-radius: 10px;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.icon-arrow-2 a > i {
+  color: white;
+}
+
+.mid-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.aside-bottom {
+  background-color: rgb(250, 249, 249);
+  border-radius: 10px;
+  border: 1px rgb(194, 194, 194) solid;
+}
