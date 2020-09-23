@@ -45,6 +45,10 @@ p {
 }
 
 @media screen and (max-width: 764px) {
+  .text,
+  .button-style {
+    margin-right: 10px;
+  }
   .vertical-line {
     display: none;
   }
