@@ -42,7 +42,7 @@ a.nav-link {
   font-size: 14px !important;
 }
 
-a.nav-link .active {
+a.nav-link.active {
   border-bottom: 2px red solid !important;
 }
 
