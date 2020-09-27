@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.breadcrumb {
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+.breadcrumb a,
+li.breadcrumb-item.active {
+  color: black;
+  font-size: 16px;
+}
+
+.button-style {
+  border-radius: 20px !important;
+  font-size: 12px !important;
+  padding: 8px 20px !important;
+  background-color: rgba(248, 65, 48, 0.05);
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+}
+
+a.nav-link {
+  color: gray;
+  font-size: 14px !important;
+}
+
+a.nav-link .active {
+  border-bottom: 2px red solid !important;
+}
+
+.text h4 {
+  font-size: 14px;
+}
+
+.table th {
+  border: none !important;
+}
