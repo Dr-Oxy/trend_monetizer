@@ -32,7 +32,32 @@ a.nav-link {
   font-size: 14px !important;
 }
 
+.nav-tabs .nav-link {
+  border: none !important;
+}
+
+a.nav-link.active {
+  border-bottom: 2px red solid !important;
+  color: black !important;
+}
+
 .text-style {
   font-size: 12px;
   color: #b3b1b1;
+}
+
+.text-styles {
+  font-size: 8px;
+  color: #b3b1b1;
+}
+
+.profile-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #c7c7c7;
+}
+
+.btn-size {
+  font-size: 8px !important;
 }
